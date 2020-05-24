@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-      - distro:
+        distro:
           - centos8
           - debian10
     steps:
