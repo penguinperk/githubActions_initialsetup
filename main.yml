@@ -36,7 +36,7 @@
         dest: "/var/www/html/index.html"
       notify: restart apache
 
-    - name: Ensure Apache is running and starts at boot.
+    - name: Ensure Apache is running and starts at boot..
       service:
         name: "{{ apache_service }}"
         state: started
